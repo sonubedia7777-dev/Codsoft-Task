@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.5rem;
+  color: #C7EA46;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+.nav-links a {
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.nav-links a:hover {
+  color: #C7EA46;
+}
+
+.header {
+  background: linear-gradient(to right, #C7EA46, #56ccf2);
+  color: white;
+  padding: 5rem 0;
+  text-align: center;
+}
+.header h1 {
+  font-size: 3rem;
+}
+.header p {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+.btn {
+  background: #fff;
+  color: #C7EA46;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.btn:hover {
+  background: #e0e0e0;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #C7EA46;
+}
+
+.feature-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.feature {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.feature h3 {
+  color: #C7EA46;
+  margin-bottom: 1rem;
+}
+
+.testimonials p {
+  font-style: italic;
+  text-align: center;
+  margin: 1rem 0;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact a {
+  color: #C7EA46;
+}
+
+.footer {
+  background-color: #C7EA46;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-top: 4rem;
+}
